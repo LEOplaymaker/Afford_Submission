@@ -66,11 +66,11 @@ function All() {
   return (<div className='content_main'>
     <table id="customers">
       <tr>
-        <th>trainNumber</th>
-        <th>trainDetails</th>
-        <th>trainPrice</th>
-        <th>trainTime</th>
-        <th>available</th>
+        <th>TrainNumber</th>
+        <th>TrainDetails</th>
+        <th>TrainPrice</th>
+        <th>TrainTime</th>
+        <th>Available</th>
         <th>Action</th>
       </tr>
       {
@@ -112,12 +112,12 @@ function TrainDetail() {
     <div className='content_main'>
       <table id="customers">
         <tr>
-          <th>trainNumber</th>
-          <th>trainName</th>
-          <th>departureTime</th>
+          <th>TrainNumber</th>
+          <th>TrainName</th>
+          <th>DepartureTime</th>
           <th>Price</th>
           <th>Seats Available</th>
-          <th>delayedBy</th>
+          <th>DelayedBy</th>
         </tr>
         <tr>
           <td>{trainDets?.trainNumber}</td>
