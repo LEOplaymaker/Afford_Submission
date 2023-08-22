@@ -1,0 +1,43 @@
+.App{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.Header{
+background-color: cadetblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+height: 50px;
+}
+
+.content_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
