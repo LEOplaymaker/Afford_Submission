@@ -43,7 +43,7 @@ function All() {
   useEffect(() => {
     async function getTrainDetails() {
       try {
-        const response = await axios.get("http://localhost:8000/getDetails");
+        const response = await axios.get("https://afford.onrender.com/getDetails");
         setDataTrain(response.data)
         setLoading(false);
       } catch (error) {
@@ -101,7 +101,7 @@ function TrainDetail() {
   });
   useEffect(() => {
     async function fetch() {
-      await axios.get(`http://localhost:8000/getParticularDets?trainNum=${trainNumber}`).then((response) => {
+      await axios.get(`https://afford.onrender.com/getParticularDets?trainNum=${trainNumber}`).then((response) => {
         console.log(response.data);
         setTrainDets(response.data);
       });
